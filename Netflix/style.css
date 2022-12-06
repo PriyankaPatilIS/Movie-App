@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(1, 1, 1, 0.6)),url(image/background.jpg);
+    height: 100vh;
+    width:100%;
+    background-color: black;
+    border-bottom: 8px solid rgb(61, 60, 60);
+}
+/* Content Start */
+.content{
+    display:grid;
+    justify-content:space-around;
+    grid-template-columns: 1fr 1fr ;   
+}
+.content1 img{
+    height:70px;
+    width:150px;
+    margin:10px 0px 0px 60px;
+}
+.content2 select{
+    margin: 25px 0px 0px 400px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 8px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    font-size: 15px;
+}
+.content2 option{
+    background-color: rgb(78, 75, 75);
+    font-size: 15px;
+}
+.content2 button{
+    background-color: red;
+    height:38px;
+    width: 90px;
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.input h1{
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: 100px 0 0 345px;
+    font-size: 50px;
+}
+.input span{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-left: 35%;
+}
+.input p{
+    text-align: center;
+    color: white;
+    margin: 20px 0 20px 0;
+    font-size: 16px;
+}
+input[type=email]{
+    padding: 19px;
+    width:30%;
+    border: none;
+    position: relative;
+    font-size: 15px;
+    font-family:sans-serif;
+    color: #222222;
+    margin-left: 370px;
+    margin-right: 0px;
+}
+.email button{
+    background: rgb(228, 4, 4);
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    padding: 17px;
+    width:13%;
+    font-family: sans-serif;
+    border: none;
+    font-size: 18px;
+}
+.email button:hover{
+
+    background: rgb(248, 42, 42);
+}
+/* Content End */
+/* Section Start */
+.section{
+    margin-top: 171px;
+    display:grid;
+    justify-content:space-around;
+    grid-template-columns: 1fr 1fr;   
+    background-color: black;
+    border-bottom: 8px solid rgb(61, 60, 60);
+}
+.box1{
+    text-align: left;
+    width:100%;
+}
+.box1 h1{
+     font-size: 50px;
+    margin: 130px 0px 0px 100px;
+    color: white;
+}
+.box1 p{
+     color: white;
+     margin: 10px 0px 0px 100px;
+     font-size: 22px;
+     width:70%;
+     text-align: left;
+}
+.box2
+{
+    text-align: center;
+    width:100%;
+}  
+.box2 img{
+    margin-top: 50px;
+    height: 80%;
+    width: 80%;
+}
+/* Section End */
+/* Section1 Start */
+
+.section1{
+    display:grid;
+    justify-content:space-around;
+    grid-template-columns: 1fr 1fr;   
+    background-color: black;
+    border-bottom: 8px solid rgb(61, 60, 60);
+}
+.box3
+{
+    text-align: center;
+    width:100%;
+}  
+.box3 img{
+    margin-top: 50px;
+    height: 80%;
+    width: 80%;
+}
+.box4{
+    text-align: left;
+    width:100%;
+}
+.box4 h1{
+    font-size: 40px;
+    margin: 120px 0px 0px 50px;
+    color: white;
+    width: 70%;
+}
+.box4 p{
+    color: white;
+    margin: 10px 0px 0px 45px;
+    font-size: 22px;
+    width:70%;
+    text-align: left;
+}
+/* Section1 End */
+/* Section2 Start */
+.section2{
+    display:grid;
+    justify-content:space-around;
+    grid-template-columns: 1fr 1fr;   
+    background-color: black;
+    border-bottom: 8px solid rgb(61, 60, 60);
+}
+.box5{
+    text-align: left;
+    width:100%;
+}
+.box5 h1{
+     font-size: 40px;
+    margin: 130px 0px 0px 100px;
+    color: white;
+    width: 70%;
+}
+.box5 p{
+    color: white;
+    margin: 10px 0px 0px 100px;
+    font-size: 22px;
+    width:70%;
+    text-align: left;}
+.box6
+{
+    text-align: center;
+    width:100%;
+}  
+.box6 img{
+    margin-top: 50px;
+    height: 80%;
+    width: 80%;
+}
+/* Section2 End */
+/* Section3 Start */
+.section3{
+    display:grid;
+    justify-content:space-around;
+    grid-template-columns: 1fr 1fr;   
+    background-color: black;
+    border-bottom: 8px solid rgb(61, 60, 60);
+}
+.box7
+{
+    text-align: center;
+    width:100%;
+}  
+.box7 img{
+    margin-top: 50px;
+    height: 80%;
+    width: 80%;
+}
+.box8{
+    text-align: left;
+    width:100%;
+}
+.box8 h1{
+    font-size: 40px;
+    margin: 100px 0px 0px 0px;
+    color: white;
+    width: 70%;
+}
+.box8 p{
+    color: white;
+    margin: 10px 0px 0px 0px;
+    font-size: 22px;
+    width:75%;
+    text-align: left;
+}
+.height{
+    height:70vh;
+}
+/* Section3 End */
+/* Section4 Start */
+.section4{
+    height: 130vh;
+    background-color: black;
+    padding: 50px 0 0 200px;
+    border-bottom: 8px solid rgb(61, 60, 60);
+}
+.faq{
+    height: 115vh;
+    width: 80%;
+    background-color: black;
+    
+}
+.section4 .title h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding: 20px 5%;
+}
+.section4 .title button{
+    background: #303030;
+    color: white;
+    cursor: pointer;
+    padding: 16px;
+    width: 88%;
+    margin: 0px 0 10px 45px;
+    font-size: 23px; 
+    border: none;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+.title button i .fa{
+    color: white;
+}
+.section4 .faq p{
+    text-align: center;
+    margin: 50px 0 20px 0;
+    color: white;
+    font-size: 18px;
+}
+.faq input[type=email]{
+    padding: 19px;
+    width:42%;
+    border: none;
+    position: relative;
+    font-size: 15px;
+    font-family:sans-serif;
+    color: #222222;
+    margin-left: 130px;
+}
+.section4 .faq .search button{
+    background: rgb(228, 4, 4);
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    padding: 17px;
+    width:18%;
+    font-family: sans-serif;
+    border: none;
+    font-size: 18px; 
+}
+.faq .search button:hover{
+    background: rgb(248, 42, 42);
+}
+/* Section 4 End */
+/* Section 5 Start */
+
+.section5{
+    height: 60vh;
+    background-color: black;
+    border-bottom: 8px solid rgb(61, 60, 60);
+    padding: 20px;
+}
+.section5 .call{
+    margin:50px 0 0 180px;
+    width:30%;
+}
+.call a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #757575;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 50vh;
+    width: 80%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.height1{
+    height: 100px;
+}
+.box9{
+    width: 200px;
+    margin:30px 0 0 50px;
+    text-align: left; 
+}
+.dropdown{
+    margin-left: 50px;
+    height: 15vh;
+    width: 50%;
+   }
+.footer .dropdown select{
+    border-radius: 2px;
+    margin: 2px 0 0 0;
+    padding: 8px;
+    width: 100px;
+    background-color: black;
+    color: #757575;
+    opacity: 0.9;
+    font-size: 15px;
+}
+.footer .dropdown p{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #757575;
+}
+ul li a{
+    list-style: none;
+    line-height: 2rem;
+    font-size: 12px;
+    color: #757575;
+    text-decoration: none;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+.box10{
+    width: 200px;
+    margin:30px 0 0 35px;
+    text-align: left; 
+}
+.box11{
+    width: 200px;
+    margin:30px 0 0 15px;
+    text-align: left; 
+}
+.box12{
+    width: 200px;
+    margin-top: 30px;
+    text-align: left; 
+}
+/* Section 5 End */
+/* Responsive Start */
+@media (max-width:500px){
+    .header{
+        width: 100%;
+        height: 80vh;
+    } 
+    .content1 img{
+        margin: 15px 0 0 20px;
+        height: 60px;
+        width: 90px;
+    }
+    .content2 select{
+         margin: 25px 0 0 10px;
+     }
+     .input h1{
+         margin:50px 0 0 15px;
+         width: 90%;
+         font-size: 25px;
+     }
+     .input span{
+         margin-left: 105px;
+         font-size: 16px;
+        }
+    .input p{
+        margin-left: 70px;
+        width: 70%;
+        font-size: 18px;
+    }
+    .email{
+        width: 95%;
+    }
+    .email input[type=email]{
+        margin:0 30px 0 30px;
+        width: 80%;
+        height: 10px;
+    }
+    .email button{
+        margin:20px 0 0 150px;
+        width: 30%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .section{
+        grid-template-columns: 1fr;
+        margin-top: 138px;
+    }
+    .section .box1 {
+        height: 30vh;
+    }
+    .section h1{
+        margin-top: 45px;
+        font-size: 25px;
+    }
+    .section p{
+        font-size: 16px;
+        width: 90%;
+        margin-left: 25px;
+        text-align: center;
+    }
+    .section .box2 {
+        height: 50vh;
+    }
+    .section .box2 img{
+        height: 100%;
+        width: 70%;
+        margin-top: 0px;
+    }
+    .section1{
+        grid-template-columns: 1fr;
+     }
+    .section1 .box3 {
+        height: 50vh;
+    }
+    .section1 .box3 img{
+        height: 100%;
+        width: 70%;
+        margin-top: 0px;
+    }
+    .section1 .box4 {
+        height: 35vh;
+    }
+    .section1 h1{
+        margin: 45px 0 0 0px;
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+    .section1 p{
+        font-size: 16px;
+        width: 90%;
+        margin-left: 25px;
+        text-align: center;
+    }
+    .section2{
+        grid-template-columns: 1fr;
+    }
+    .section2 .box5 {
+        height: 30vh;
+    }
+    .section2 h1{
+        margin-top: 45px;
+        font-size: 25px;
+    }
+    .section2 p{
+        font-size: 16px;
+        width: 90%;
+        margin-left: 25px;
+        text-align: center;
+    }
+    .section2 .box6 {
+        height: 50vh;
+    }
+    .section2 .box6 img{
+        height: 100%;
+        width: 70%;
+        margin-top: 0px;
+    }
+    .section3{
+        grid-template-columns: 1fr;
+     }
+    .section3 .box7 {
+        height: 50vh;
+    }
+    .section3 .box7 img{
+        height: 100%;
+        width: 70%;
+        margin-top: 0px;
+    }
+    .section3 .box8 {
+        height: 35vh;
+    }
+    .section3 h1{
+        margin: 45px 0 0 0px;
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+    .section3 p{
+        font-size: 16px;
+        width: 90%;
+        margin-left: 25px;
+        text-align: center;
+    }
+    .section4{
+        padding: 50px 0 0 0;
+        height:115vh;
+        border-bottom: 8px solid rgb(61, 60, 60);
+    }
+    .faq{
+         height: 120vh;
+         width: 100%;
+    }
+    .section4 .title h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    .section4 .title button{
+        width: 100%;
+        font-size: 14px;
+        margin-left: 0;
+        padding: 15px 5px 15px 5px;
+    }
+    .section4 .faq p{
+        width: 80%;
+        padding-left: 45px;
+    }
+    .search{
+        width: 95%;
+    }
+    .search input[type=email]{
+        margin:0 30px 0 30px;
+        width: 80%;
+        height: 10px;
+        padding-left: 35px;
+    }
+    .section4 .faq .search button{
+        margin:20px 0 0 170px;
+        width: 30%;
+        
+        font-size: 15px;
+    }
+    .section5{
+        height: 75vh;
+        margin-top: 10px;
+        border-bottom: none;
+        border-top: 8px solid rgb(61, 60, 60);
+    }
+    .footer{
+        grid-template-columns: 1fr 1fr;
+        height: 70vh;
+        width: 80%;
+        margin-left: 20px;
+    }
+    .section5 .call{
+        margin: 30px 0 0 25px;
+        width: 80%
+    }
+    .box9 , .box10{
+        margin: 10px 0 0 10px;
+        width: 80%;
+    }
+    .box11 , .box12{
+        margin:0 0 15px 10px;
+        width: 80%;
+    }
+    .dropdown{
+        margin: 10px;
+        height: 15vh;
+        width: 60%;
+    }
+}
+/* Responsive End */
+
+
+
